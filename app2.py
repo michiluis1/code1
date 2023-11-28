@@ -11,7 +11,7 @@ pygame.font.init()
  
 # Title and Icon 
 pygame.display.set_caption("Awesom Sudoku Game")
-img = pygame.image.load('Sudoku/static/icon.jpeg')
+img = pygame.image.load('icon.jpeg')
 pygame.display.set_icon(img)
 
 main_menu = Menu()
